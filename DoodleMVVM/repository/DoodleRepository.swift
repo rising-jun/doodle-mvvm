@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 
 protocol DoodleRepository {
-    
+    func fetchDoodles() -> Observable<[DoodleDTO]>
 }
 
 final class DoodleRepositoryImpl: DoodleRepository {
@@ -20,7 +20,6 @@ final class DoodleRepositoryImpl: DoodleRepository {
             .data(request: urlRequest)
             .decode(type: [DoodleDTO].self, decoder: JSONDecoder())
     }
-    
 }
 
 final class ImageManager {

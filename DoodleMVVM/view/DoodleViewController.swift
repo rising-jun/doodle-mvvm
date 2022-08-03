@@ -8,11 +8,30 @@
 import RxAppState
 import RxSwift
 import SnapKit
+import EbonyDependencyKit
 
-class DoodleViewController: UIViewController {
+struct DoodleDependency: Dependency {
+    typealias ManagerType = DoodleViewModelProtocol
+    var viewModel: DoodleViewModelProtocol
+}
 
+final class DoodleViewController: UIViewController, DependencySetable {
+    var dependency: DoodleDependency? {
+        didSet { self.viewModel = dependency?.viewModel }
+    }
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        DependencyInjector.injecting(to: self)
+    }
+
+    @available(*, unavailable)
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+    
     private let disposeBag = DisposeBag()
-    var viewModel: DoodleViewModelProtocol = DoodleViewModel()
+    var viewModel: DoodleViewModelProtocol?
     
     private let flowlayout: UICollectionViewFlowLayout = {
         let flowlayout = UICollectionViewFlowLayout()
@@ -35,6 +54,7 @@ class DoodleViewController: UIViewController {
 
 extension DoodleViewController {
     private func bind() {
+        guard let viewModel = viewModel else { return }
         rx.viewWillAppear
             .map { _ in return () }
             .bind(to: viewModel.action().viewDidLoad)
@@ -44,7 +64,6 @@ extension DoodleViewController {
             cell.setImage(data: data)
         }
         .disposed(by: disposeBag)
-        
     }
     
     private func layout() {

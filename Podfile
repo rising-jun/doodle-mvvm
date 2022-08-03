@@ -20,5 +20,5 @@ target 'DoodleMVVM' do
   pod 'Moya/RxSwift'
   pod 'SnapKit'
   pod 'RxAppState'
-
+  pod 'EbonyDependencyKit'
 end

@@ -7,9 +7,8 @@
 
 import RxSwift
 import RxRelay
-import Foundation
 
-protocol DoodleViewModelProtocol: DoodleViewModelAction, DoodleViewModelState, DoodleViewModelBinding { }
+typealias DoodleViewModelProtocol = DoodleViewModelAction & DoodleViewModelState & DoodleViewModelBinding
 
 protocol DoodleViewModelAction {
     var viewDidLoad: PublishRelay<Void> { get set }
@@ -32,10 +31,12 @@ final class DoodleViewModel: DoodleViewModelProtocol {
     func action() -> DoodleViewModelAction { self }
     func state() -> DoodleViewModelState { self }
     
-    private let repository = DoodleRepositoryImpl()
+    private var repository: DoodleRepository
     private let disposeBag = DisposeBag()
    
-    init() {
+    init(repository: DoodleRepository) {
+        self.repository = repository
+        
         let requestDoodles = viewDidLoad
             .flatMap { [unowned self] _ in
                 self.repository.fetchDoodles() }

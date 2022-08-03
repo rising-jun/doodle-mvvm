@@ -12,6 +12,7 @@
 		72671FA6289910C2002EB64A /* DoodleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72671FA5289910C2002EB64A /* DoodleRepository.swift */; };
 		72671FA82899129D002EB64A /* DoodleDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72671FA72899129D002EB64A /* DoodleDTO.swift */; };
 		72775F02289A511D00F36F18 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72775F01289A511D00F36F18 /* ImageCell.swift */; };
+		72775F09289A64F500F36F18 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72775F08289A64F500F36F18 /* DependencyInjector.swift */; };
 		7290261428990DE40072B2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261328990DE40072B2A4 /* AppDelegate.swift */; };
 		7290261628990DE40072B2A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261528990DE40072B2A4 /* SceneDelegate.swift */; };
 		7290261828990DE40072B2A4 /* DoodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261728990DE40072B2A4 /* DoodleViewController.swift */; };
@@ -50,6 +51,7 @@
 		72671FA5289910C2002EB64A /* DoodleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleRepository.swift; sourceTree = "<group>"; };
 		72671FA72899129D002EB64A /* DoodleDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleDTO.swift; sourceTree = "<group>"; };
 		72775F01289A511D00F36F18 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		72775F08289A64F500F36F18 /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
 		7290261028990DE40072B2A4 /* DoodleMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7290261328990DE40072B2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7290261528990DE40072B2A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72775F03289A63F700F36F18 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				72775F01289A511D00F36F18 /* ImageCell.swift */,
+				7290261728990DE40072B2A4 /* DoodleViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		72775F04289A641400F36F18 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				72671FA328990FA1002EB64A /* DoodleViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		72775F05289A642300F36F18 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				72671FA72899129D002EB64A /* DoodleDTO.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		72775F06289A645000F36F18 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				72671FA5289910C2002EB64A /* DoodleRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		72775F07289A64DC00F36F18 /* dependency */ = {
+			isa = PBXGroup;
+			children = (
+				72775F08289A64F500F36F18 /* DependencyInjector.swift */,
+			);
+			path = dependency;
+			sourceTree = "<group>";
+		};
 		7290260728990DE40072B2A4 = {
 			isa = PBXGroup;
 			children = (
@@ -122,16 +165,16 @@
 		7290261228990DE40072B2A4 /* DoodleMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				72775F07289A64DC00F36F18 /* dependency */,
+				72775F06289A645000F36F18 /* repository */,
+				72775F05289A642300F36F18 /* entity */,
+				72775F04289A641400F36F18 /* viewmodel */,
+				72775F03289A63F700F36F18 /* view */,
 				7290261328990DE40072B2A4 /* AppDelegate.swift */,
 				7290261528990DE40072B2A4 /* SceneDelegate.swift */,
-				7290261728990DE40072B2A4 /* DoodleViewController.swift */,
 				7290261C28990DE60072B2A4 /* Assets.xcassets */,
 				7290261E28990DE60072B2A4 /* LaunchScreen.storyboard */,
 				7290262128990DE60072B2A4 /* Info.plist */,
-				72671FA328990FA1002EB64A /* DoodleViewModel.swift */,
-				72671FA5289910C2002EB64A /* DoodleRepository.swift */,
-				72671FA72899129D002EB64A /* DoodleDTO.swift */,
-				72775F01289A511D00F36F18 /* ImageCell.swift */,
 			);
 			path = DoodleMVVM;
 			sourceTree = "<group>";
@@ -414,6 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72775F09289A64F500F36F18 /* DependencyInjector.swift in Sources */,
 				7290261828990DE40072B2A4 /* DoodleViewController.swift in Sources */,
 				7290261428990DE40072B2A4 /* AppDelegate.swift in Sources */,
 				72671FA82899129D002EB64A /* DoodleDTO.swift in Sources */,

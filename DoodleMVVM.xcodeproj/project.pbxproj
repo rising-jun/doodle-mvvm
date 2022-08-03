@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B8F99701DDDCE7BE1DAB8C0 /* Pods_DoodleMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED15B86BE6394D1B98A0C2E1 /* Pods_DoodleMVVM.framework */; };
+		72671FA428990FA1002EB64A /* DoodleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72671FA328990FA1002EB64A /* DoodleViewModel.swift */; };
+		72671FA6289910C2002EB64A /* DoodleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72671FA5289910C2002EB64A /* DoodleRepository.swift */; };
+		72671FA82899129D002EB64A /* DoodleDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72671FA72899129D002EB64A /* DoodleDTO.swift */; };
+		72775F02289A511D00F36F18 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72775F01289A511D00F36F18 /* ImageCell.swift */; };
 		7290261428990DE40072B2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261328990DE40072B2A4 /* AppDelegate.swift */; };
 		7290261628990DE40072B2A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261528990DE40072B2A4 /* SceneDelegate.swift */; };
-		7290261828990DE40072B2A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261728990DE40072B2A4 /* ViewController.swift */; };
-		7290261B28990DE40072B2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7290261928990DE40072B2A4 /* Main.storyboard */; };
+		7290261828990DE40072B2A4 /* DoodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261728990DE40072B2A4 /* DoodleViewController.swift */; };
 		7290261D28990DE60072B2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7290261C28990DE60072B2A4 /* Assets.xcassets */; };
 		7290262028990DE60072B2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7290261E28990DE60072B2A4 /* LaunchScreen.storyboard */; };
 		7290262B28990DE60072B2A4 /* DoodleMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290262A28990DE60072B2A4 /* DoodleMVVMTests.swift */; };
 		7290263528990DE60072B2A4 /* DoodleMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290263428990DE60072B2A4 /* DoodleMVVMUITests.swift */; };
 		7290263728990DE60072B2A4 /* DoodleMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290263628990DE60072B2A4 /* DoodleMVVMUITestsLaunchTests.swift */; };
+		79EAA032B5FFEDFA15DF30D8 /* Pods_DoodleMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9172953FF25D655F252DCE /* Pods_DoodleMVVMTests.framework */; };
+		C88E3521493B4A6A20372FB0 /* Pods_DoodleMVVM_DoodleMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB55ABF0D200A02635F023A /* Pods_DoodleMVVM_DoodleMVVMUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10AE69C3B9E3FBDF5BA82ACA /* Pods-DoodleMVVM-DoodleMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoodleMVVM-DoodleMVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-DoodleMVVM-DoodleMVVMUITests/Pods-DoodleMVVM-DoodleMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AB9EE54328D6D42B7CA8EA6 /* Pods-DoodleMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoodleMVVM.release.xcconfig"; path = "Target Support Files/Pods-DoodleMVVM/Pods-DoodleMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		4B9172953FF25D655F252DCE /* Pods_DoodleMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoodleMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5993169B94DE37DA6F0BE46E /* Pods-DoodleMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoodleMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-DoodleMVVMTests/Pods-DoodleMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72671FA328990FA1002EB64A /* DoodleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleViewModel.swift; sourceTree = "<group>"; };
+		72671FA5289910C2002EB64A /* DoodleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleRepository.swift; sourceTree = "<group>"; };
+		72671FA72899129D002EB64A /* DoodleDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleDTO.swift; sourceTree = "<group>"; };
+		72775F01289A511D00F36F18 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		7290261028990DE40072B2A4 /* DoodleMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7290261328990DE40072B2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7290261528990DE40072B2A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7290261728990DE40072B2A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7290261A28990DE40072B2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7290261728990DE40072B2A4 /* DoodleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleViewController.swift; sourceTree = "<group>"; };
 		7290261C28990DE60072B2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7290261F28990DE60072B2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7290262128990DE60072B2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,11 @@
 		7290263028990DE60072B2A4 /* DoodleMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7290263428990DE60072B2A4 /* DoodleMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleMVVMUITests.swift; sourceTree = "<group>"; };
 		7290263628990DE60072B2A4 /* DoodleMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAB55ABF0D200A02635F023A /* Pods_DoodleMVVM_DoodleMVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoodleMVVM_DoodleMVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E185F11055949735E85041DF /* Pods-DoodleMVVM-DoodleMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoodleMVVM-DoodleMVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-DoodleMVVM-DoodleMVVMUITests/Pods-DoodleMVVM-DoodleMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E36B9B515201155574E4C8BE /* Pods-DoodleMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoodleMVVMTests.release.xcconfig"; path = "Target Support Files/Pods-DoodleMVVMTests/Pods-DoodleMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED15B86BE6394D1B98A0C2E1 /* Pods_DoodleMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoodleMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F239C45CAEBEF3277FCC77E9 /* Pods-DoodleMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoodleMVVM.debug.xcconfig"; path = "Target Support Files/Pods-DoodleMVVM/Pods-DoodleMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8F99701DDDCE7BE1DAB8C0 /* Pods_DoodleMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79EAA032B5FFEDFA15DF30D8 /* Pods_DoodleMVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88E3521493B4A6A20372FB0 /* Pods_DoodleMVVM_DoodleMVVMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				7290262928990DE60072B2A4 /* DoodleMVVMTests */,
 				7290263328990DE60072B2A4 /* DoodleMVVMUITests */,
 				7290261128990DE40072B2A4 /* Products */,
+				F2B0F49C7E1EB9CEA76DDD6E /* Pods */,
+				F670FE0AC88B9B8A5DD6E54B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +124,14 @@
 			children = (
 				7290261328990DE40072B2A4 /* AppDelegate.swift */,
 				7290261528990DE40072B2A4 /* SceneDelegate.swift */,
-				7290261728990DE40072B2A4 /* ViewController.swift */,
-				7290261928990DE40072B2A4 /* Main.storyboard */,
+				7290261728990DE40072B2A4 /* DoodleViewController.swift */,
 				7290261C28990DE60072B2A4 /* Assets.xcassets */,
 				7290261E28990DE60072B2A4 /* LaunchScreen.storyboard */,
 				7290262128990DE60072B2A4 /* Info.plist */,
+				72671FA328990FA1002EB64A /* DoodleViewModel.swift */,
+				72671FA5289910C2002EB64A /* DoodleRepository.swift */,
+				72671FA72899129D002EB64A /* DoodleDTO.swift */,
+				72775F01289A511D00F36F18 /* ImageCell.swift */,
 			);
 			path = DoodleMVVM;
 			sourceTree = "<group>";
@@ -127,6 +153,29 @@
 			path = DoodleMVVMUITests;
 			sourceTree = "<group>";
 		};
+		F2B0F49C7E1EB9CEA76DDD6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F239C45CAEBEF3277FCC77E9 /* Pods-DoodleMVVM.debug.xcconfig */,
+				1AB9EE54328D6D42B7CA8EA6 /* Pods-DoodleMVVM.release.xcconfig */,
+				10AE69C3B9E3FBDF5BA82ACA /* Pods-DoodleMVVM-DoodleMVVMUITests.debug.xcconfig */,
+				E185F11055949735E85041DF /* Pods-DoodleMVVM-DoodleMVVMUITests.release.xcconfig */,
+				5993169B94DE37DA6F0BE46E /* Pods-DoodleMVVMTests.debug.xcconfig */,
+				E36B9B515201155574E4C8BE /* Pods-DoodleMVVMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F670FE0AC88B9B8A5DD6E54B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED15B86BE6394D1B98A0C2E1 /* Pods_DoodleMVVM.framework */,
+				AAB55ABF0D200A02635F023A /* Pods_DoodleMVVM_DoodleMVVMUITests.framework */,
+				4B9172953FF25D655F252DCE /* Pods_DoodleMVVMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7290263A28990DE60072B2A4 /* Build configuration list for PBXNativeTarget "DoodleMVVM" */;
 			buildPhases = (
+				2FE6FC856937A16A2AD03714 /* [CP] Check Pods Manifest.lock */,
 				7290260C28990DE40072B2A4 /* Sources */,
 				7290260D28990DE40072B2A4 /* Frameworks */,
 				7290260E28990DE40072B2A4 /* Resources */,
+				F6ACF766C00CF2CA4DDF8C1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7290263D28990DE60072B2A4 /* Build configuration list for PBXNativeTarget "DoodleMVVMTests" */;
 			buildPhases = (
+				C2A76814C70980DC480D7127 /* [CP] Check Pods Manifest.lock */,
 				7290262228990DE60072B2A4 /* Sources */,
 				7290262328990DE60072B2A4 /* Frameworks */,
 				7290262428990DE60072B2A4 /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7290264028990DE60072B2A4 /* Build configuration list for PBXNativeTarget "DoodleMVVMUITests" */;
 			buildPhases = (
+				E15A8BD7F477D8F03F6B49B8 /* [CP] Check Pods Manifest.lock */,
 				7290262C28990DE60072B2A4 /* Sources */,
 				7290262D28990DE60072B2A4 /* Frameworks */,
 				7290262E28990DE60072B2A4 /* Resources */,
+				301EDB05AC0D3332964110DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +287,6 @@
 			files = (
 				7290262028990DE60072B2A4 /* LaunchScreen.storyboard in Resources */,
 				7290261D28990DE60072B2A4 /* Assets.xcassets in Resources */,
-				7290261B28990DE40072B2A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +306,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FE6FC856937A16A2AD03714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoodleMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		301EDB05AC0D3332964110DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVM-DoodleMVVMUITests/Pods-DoodleMVVM-DoodleMVVMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVM-DoodleMVVMUITests/Pods-DoodleMVVM-DoodleMVVMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVM-DoodleMVVMUITests/Pods-DoodleMVVM-DoodleMVVMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A76814C70980DC480D7127 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoodleMVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15A8BD7F477D8F03F6B49B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoodleMVVM-DoodleMVVMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6ACF766C00CF2CA4DDF8C1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVM/Pods-DoodleMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVM/Pods-DoodleMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVM/Pods-DoodleMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7290260C28990DE40072B2A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7290261828990DE40072B2A4 /* ViewController.swift in Sources */,
+				7290261828990DE40072B2A4 /* DoodleViewController.swift in Sources */,
 				7290261428990DE40072B2A4 /* AppDelegate.swift in Sources */,
+				72671FA82899129D002EB64A /* DoodleDTO.swift in Sources */,
+				72671FA6289910C2002EB64A /* DoodleRepository.swift in Sources */,
+				72775F02289A511D00F36F18 /* ImageCell.swift in Sources */,
 				7290261628990DE40072B2A4 /* SceneDelegate.swift in Sources */,
+				72671FA428990FA1002EB64A /* DoodleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +457,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7290261928990DE40072B2A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7290261A28990DE40072B2A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7290261E28990DE60072B2A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +572,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +584,7 @@
 		};
 		7290263B28990DE60072B2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F239C45CAEBEF3277FCC77E9 /* Pods-DoodleMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +595,6 @@
 				INFOPLIST_FILE = DoodleMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +612,7 @@
 		};
 		7290263C28990DE60072B2A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB9EE54328D6D42B7CA8EA6 /* Pods-DoodleMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +623,6 @@
 				INFOPLIST_FILE = DoodleMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,6 +640,7 @@
 		};
 		7290263E28990DE60072B2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5993169B94DE37DA6F0BE46E /* Pods-DoodleMVVMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		7290263F28990DE60072B2A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36B9B515201155574E4C8BE /* Pods-DoodleMVVMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +682,7 @@
 		};
 		7290264128990DE60072B2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AE69C3B9E3FBDF5BA82ACA /* Pods-DoodleMVVM-DoodleMVVMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +701,7 @@
 		};
 		7290264228990DE60072B2A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E185F11055949735E85041DF /* Pods-DoodleMVVM-DoodleMVVMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,4 +1,6 @@
 # doodle-mvvm
+
+## 코드설명. https://github.com/rising-jun/doodle-mvvm/pull/2
 ----
 ## RxSwift + MVVM
 - Input(Action), Output(State), Bind를 추상화한 후 이들을 채택한 ViewModelType추상타입을 ViewModel이 채택하도록 하였습니다.

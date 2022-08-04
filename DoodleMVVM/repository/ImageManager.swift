@@ -18,6 +18,6 @@ final class ImageManager {
             .data(request: urlRequest)
             .catch { error in
                 return Observable.just(Data())
-            }
+        }
     }
 }

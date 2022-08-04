@@ -9,3 +9,5 @@
 ## RxTest
 - RxTest를 사용하여 테스트하였습니다.
 
+### 구조
+<img width="1413" alt="스크린샷 2022-08-04 오후 5 32 30" src="https://user-images.githubusercontent.com/62687919/182801905-9d634b22-2cdb-41a8-b87b-bda37543abac.png">

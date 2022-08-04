@@ -8,6 +8,7 @@ target 'DoodleMVVM' do
   # Pods for DoodleMVVM
 
   target 'DoodleMVVMTests' do
+    pod 'RxTest'
     inherit! :search_paths
     # Pods for testing
   end

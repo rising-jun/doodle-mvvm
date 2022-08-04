@@ -60,10 +60,12 @@ extension DoodleViewController {
             .bind(to: viewModel.action().viewDidLoad)
             .disposed(by: disposeBag)
         
-        viewModel.state().requestDoodleImages.bind(to: collectionView.rx.items(cellIdentifier: ImageCell.id, cellType: ImageCell.self)){ index, data, cell in
+        viewModel.state().requestDoodleImages
+            .bind(to: collectionView.rx.items(cellIdentifier: ImageCell.id, cellType: ImageCell.self)){ index, data, cell in
             cell.setImage(data: data)
         }
         .disposed(by: disposeBag)
+        
     }
     
     private func layout() {

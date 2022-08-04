@@ -11,14 +11,21 @@
 		72671FA428990FA1002EB64A /* DoodleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72671FA328990FA1002EB64A /* DoodleViewModel.swift */; };
 		72671FA6289910C2002EB64A /* DoodleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72671FA5289910C2002EB64A /* DoodleRepository.swift */; };
 		72671FA82899129D002EB64A /* DoodleDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72671FA72899129D002EB64A /* DoodleDTO.swift */; };
+		72706EF4289B9FBA00AF2247 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72706EF3289B9FBA00AF2247 /* ImageManager.swift */; };
+		72706EF6289BA07800AF2247 /* DoodleRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72706EF5289BA07800AF2247 /* DoodleRepositoryImpl.swift */; };
 		72775F02289A511D00F36F18 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72775F01289A511D00F36F18 /* ImageCell.swift */; };
 		72775F09289A64F500F36F18 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72775F08289A64F500F36F18 /* DependencyInjector.swift */; };
+		72775F0C289A73BD00F36F18 /* TestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72775F0B289A73BD00F36F18 /* TestUtil.swift */; };
+		72775F0F289A73E100F36F18 /* MockDoodles.json in Resources */ = {isa = PBXBuildFile; fileRef = 72775F0E289A73E100F36F18 /* MockDoodles.json */; };
+		72775F14289A743900F36F18 /* DoodleRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72775F13289A743900F36F18 /* DoodleRepositoryStub.swift */; };
+		72775F16289A775D00F36F18 /* DoodleViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72775F15289A775D00F36F18 /* DoodleViewModelTest.swift */; };
+		72775F18289A77B000F36F18 /* DoodleViewModelStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72775F17289A77B000F36F18 /* DoodleViewModelStub.swift */; };
 		7290261428990DE40072B2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261328990DE40072B2A4 /* AppDelegate.swift */; };
 		7290261628990DE40072B2A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261528990DE40072B2A4 /* SceneDelegate.swift */; };
 		7290261828990DE40072B2A4 /* DoodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290261728990DE40072B2A4 /* DoodleViewController.swift */; };
 		7290261D28990DE60072B2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7290261C28990DE60072B2A4 /* Assets.xcassets */; };
 		7290262028990DE60072B2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7290261E28990DE60072B2A4 /* LaunchScreen.storyboard */; };
-		7290262B28990DE60072B2A4 /* DoodleMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290262A28990DE60072B2A4 /* DoodleMVVMTests.swift */; };
+		7290262B28990DE60072B2A4 /* DoodleRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290262A28990DE60072B2A4 /* DoodleRepositoryTest.swift */; };
 		7290263528990DE60072B2A4 /* DoodleMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290263428990DE60072B2A4 /* DoodleMVVMUITests.swift */; };
 		7290263728990DE60072B2A4 /* DoodleMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290263628990DE60072B2A4 /* DoodleMVVMUITestsLaunchTests.swift */; };
 		79EAA032B5FFEDFA15DF30D8 /* Pods_DoodleMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9172953FF25D655F252DCE /* Pods_DoodleMVVMTests.framework */; };
@@ -50,8 +57,15 @@
 		72671FA328990FA1002EB64A /* DoodleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleViewModel.swift; sourceTree = "<group>"; };
 		72671FA5289910C2002EB64A /* DoodleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleRepository.swift; sourceTree = "<group>"; };
 		72671FA72899129D002EB64A /* DoodleDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleDTO.swift; sourceTree = "<group>"; };
+		72706EF3289B9FBA00AF2247 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		72706EF5289BA07800AF2247 /* DoodleRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleRepositoryImpl.swift; sourceTree = "<group>"; };
 		72775F01289A511D00F36F18 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		72775F08289A64F500F36F18 /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		72775F0B289A73BD00F36F18 /* TestUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtil.swift; sourceTree = "<group>"; };
+		72775F0E289A73E100F36F18 /* MockDoodles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockDoodles.json; sourceTree = "<group>"; };
+		72775F13289A743900F36F18 /* DoodleRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleRepositoryStub.swift; sourceTree = "<group>"; };
+		72775F15289A775D00F36F18 /* DoodleViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleViewModelTest.swift; sourceTree = "<group>"; };
+		72775F17289A77B000F36F18 /* DoodleViewModelStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleViewModelStub.swift; sourceTree = "<group>"; };
 		7290261028990DE40072B2A4 /* DoodleMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7290261328990DE40072B2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7290261528990DE40072B2A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +74,7 @@
 		7290261F28990DE60072B2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7290262128990DE60072B2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7290262628990DE60072B2A4 /* DoodleMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7290262A28990DE60072B2A4 /* DoodleMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleMVVMTests.swift; sourceTree = "<group>"; };
+		7290262A28990DE60072B2A4 /* DoodleRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleRepositoryTest.swift; sourceTree = "<group>"; };
 		7290263028990DE60072B2A4 /* DoodleMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7290263428990DE60072B2A4 /* DoodleMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleMVVMUITests.swift; sourceTree = "<group>"; };
 		7290263628990DE60072B2A4 /* DoodleMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -128,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				72671FA5289910C2002EB64A /* DoodleRepository.swift */,
+				72706EF3289B9FBA00AF2247 /* ImageManager.swift */,
+				72706EF5289BA07800AF2247 /* DoodleRepositoryImpl.swift */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -138,6 +154,32 @@
 				72775F08289A64F500F36F18 /* DependencyInjector.swift */,
 			);
 			path = dependency;
+			sourceTree = "<group>";
+		};
+		72775F0A289A739500F36F18 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				72775F0B289A73BD00F36F18 /* TestUtil.swift */,
+				72775F0D289A73CA00F36F18 /* mock_json */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		72775F0D289A73CA00F36F18 /* mock_json */ = {
+			isa = PBXGroup;
+			children = (
+				72775F0E289A73E100F36F18 /* MockDoodles.json */,
+			);
+			path = mock_json;
+			sourceTree = "<group>";
+		};
+		72775F10289A741A00F36F18 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				72775F13289A743900F36F18 /* DoodleRepositoryStub.swift */,
+				72775F17289A77B000F36F18 /* DoodleViewModelStub.swift */,
+			);
+			path = mock;
 			sourceTree = "<group>";
 		};
 		7290260728990DE40072B2A4 = {
@@ -182,7 +224,10 @@
 		7290262928990DE60072B2A4 /* DoodleMVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				7290262A28990DE60072B2A4 /* DoodleMVVMTests.swift */,
+				72775F10289A741A00F36F18 /* mock */,
+				72775F0A289A739500F36F18 /* util */,
+				7290262A28990DE60072B2A4 /* DoodleRepositoryTest.swift */,
+				72775F15289A775D00F36F18 /* DoodleViewModelTest.swift */,
 			);
 			path = DoodleMVVMTests;
 			sourceTree = "<group>";
@@ -249,6 +294,7 @@
 				7290262228990DE60072B2A4 /* Sources */,
 				7290262328990DE60072B2A4 /* Frameworks */,
 				7290262428990DE60072B2A4 /* Resources */,
+				B91B4C21D5012DD10FB891ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72775F0F289A73E100F36F18 /* MockDoodles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +434,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVM-DoodleMVVMUITests/Pods-DoodleMVVM-DoodleMVVMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91B4C21D5012DD10FB891ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVMTests/Pods-DoodleMVVMTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVMTests/Pods-DoodleMVVMTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoodleMVVMTests/Pods-DoodleMVVMTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C2A76814C70980DC480D7127 /* [CP] Check Pods Manifest.lock */ = {
@@ -459,7 +523,9 @@
 			files = (
 				72775F09289A64F500F36F18 /* DependencyInjector.swift in Sources */,
 				7290261828990DE40072B2A4 /* DoodleViewController.swift in Sources */,
+				72706EF6289BA07800AF2247 /* DoodleRepositoryImpl.swift in Sources */,
 				7290261428990DE40072B2A4 /* AppDelegate.swift in Sources */,
+				72706EF4289B9FBA00AF2247 /* ImageManager.swift in Sources */,
 				72671FA82899129D002EB64A /* DoodleDTO.swift in Sources */,
 				72671FA6289910C2002EB64A /* DoodleRepository.swift in Sources */,
 				72775F02289A511D00F36F18 /* ImageCell.swift in Sources */,
@@ -472,7 +538,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7290262B28990DE60072B2A4 /* DoodleMVVMTests.swift in Sources */,
+				72775F14289A743900F36F18 /* DoodleRepositoryStub.swift in Sources */,
+				7290262B28990DE60072B2A4 /* DoodleRepositoryTest.swift in Sources */,
+				72775F18289A77B000F36F18 /* DoodleViewModelStub.swift in Sources */,
+				72775F0C289A73BD00F36F18 /* TestUtil.swift in Sources */,
+				72775F16289A775D00F36F18 /* DoodleViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
